@@ -1,0 +1,92 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.team-section
+{
+	overflow: hidden;
+	text-align: center;
+	background: radial-gradient(ellipse at center, rgba(237,52,247,1) 0%, rgba(237,52,247,1) 21%, rgba(241,111,92,1) 38%, rgba(240,47,23,1) 50%, rgba(198,12,245,1) 68%, rgba(87,14,82,1) 91%, rgba(87,14,82,1) 100%);
+	padding: 60px;
+}
+
+.team-section h1
+{
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color: white;
+	font-size: 40px;
+	font-family: 'Caveat', cursive;
+}
+
+.border
+{
+	display: block;
+	margin: auto;
+	width: 700px;
+	height: 3px;
+	color: red; 
+	background: #3498db;
+	margin-bottom: 40px;
+}
+
+.ps
+{
+	margin-bottom: 40px;
+}
+
+.ps a
+{
+	display: inline-block;
+	margin: 0 30px; 
+	overflow: hidden;
+	border-radius: 13%;
+}
+
+.ps a img
+{
+	width: 100%;
+	/**filter: grayscale(100%);**/
+	transition: 0.4s all;
+}
+
+.ps a:hover > img
+{
+	filter: grayscale(100%);
+	/**filter: none;**/
+}
+
+.section
+{
+	width: 600px;
+	margin: auto;
+	font-size: 40px; 
+	color: ;
+	text-align: justify;
+	height: 0; 
+	overflow: hidden;
+}
+
+.section:target
+{
+	height: auto;
+}
+
+.name 
+{
+	display: inline-block;
+	margin-bottom: 30px;
+	text-align: justify;
+	text-transform: uppercase;
+	font-size: 42px;
+	font-family: 'Caveat', cursive;
+}
+
+.section p 
+{
+	font-family: 'Great Vibes', cursive;
+}
+
